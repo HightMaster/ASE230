@@ -8,7 +8,7 @@
 	
 	function createCard($key){ 
 		require_once('functions.php');
-		$students = json_decode(file_get_contents("classtest.json"), true);
+		$students = json_decode(file_get_contents("classtest.json"), true);d
 		?>
 		<div class="col-12 col-sm-6 col-lg-3"> 
 				<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
